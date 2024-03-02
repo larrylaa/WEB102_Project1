@@ -3,40 +3,52 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: green;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: green;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: gold;
+  background-color: rgb(3, 80, 26); 
+  z-index: 9999; 
+}
+
+.Billy {
+  width: 80px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  max-width: 100%;
+}
+
+.Billy#right {
+  top: 40px;
+  left: 64.5%;
+  z-index: 99999;
+}
+
+.Billy#left {
+  top: 40px;
+  right: 64.5%;
+  z-index: 99999;
+}
+
+@media only screen and (max-width: 600px) {
+  .Billy {
+    max-width: 80%; /* Adjust as needed */
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
