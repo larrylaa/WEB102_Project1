@@ -1,6 +1,5 @@
 import './App.css';
-import BillyBronco from "../src/assets/Bronco.png";
-import Card from "../src/components/card.jsx"; // Import the Card component
+import Card from "../src/components/card.jsx"; 
 
 const App = () => {
 
@@ -110,7 +109,7 @@ const App = () => {
       <br></br>
       <br></br>
       <br></br>
-      
+
 
 
       <div className="flex-container">
