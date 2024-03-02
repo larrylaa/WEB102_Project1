@@ -1,6 +1,6 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Community Board*
 
-Submitted by: **Your Name Here**
+Submitted by: **Larry La**
 
 This web app: **insert description**
 
