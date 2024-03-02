@@ -19,7 +19,7 @@
 
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -29,8 +29,8 @@ h1 {
 }
 
 .Billy {
-  width: 80px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
+  width: 80px; 
+  height: auto; 
   position: absolute;
   max-width: 100%;
 }
